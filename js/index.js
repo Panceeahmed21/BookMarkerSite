@@ -56,7 +56,8 @@ function deleteBook(index) {
 function validateName() {
     var regex = /^[A-Z]([a-z ])*$/gm
     if (regex.test(siteName.value) == true) {
-        document.getElementById("wrongName").classList.add("d-none")
+      
+        
         siteName.style.border = "none"
         return true
     }
